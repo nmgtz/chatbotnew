@@ -1,0 +1,92 @@
+.hd-Show {
+            padding : 10px;
+            margin : 10px;
+            display: flex;
+            align-content : space-around;
+        }
+
+        #chatNmg,#contact {
+            text-transform: capitalize;
+            color: black;
+            text-decoration: none;
+            font-weight: 700;
+            font-family: verdana;
+            font-size: 80%;
+        }
+        h1 {
+            text-transform:capitalize;
+            color: black;
+        }
+        .my-chat-bot {
+            padding: 0;
+            margin: 0;
+            position: relative;
+            background: white;
+            width: 100%;
+            height: 100%;
+            font-size: 16px;
+            overflow: auto;
+        }
+        .input-nmg {
+            position: fixed;
+           padding: 10px;
+           margin : 10px auto;
+           width: 91%;
+           text-align : center;
+           top : 88%;
+           z-index: 1;
+           background :white;
+        }
+        #userInput {
+            padding: 1.5%;
+            width: 70%;
+            outline: none;
+            border-radius : 8px;
+            border : 1px grey solid;
+        }
+        #btnShow {
+            padding: 1.5%;
+            width: 20%;
+            outline: none;
+            border-radius : 5px;
+            border: none;
+            background : grey;
+        }
+        #explnTg {
+            padding: 10px;
+            margin: 10px auto;
+            width: 90%;
+            text-align: center;
+            border: none;
+        }
+        .comentId {
+            position: absolute;
+           padding: 10px;
+           margin : 10px auto;
+           width: 95%;
+           text-align : center;
+           top : 90%; 
+           color : white;
+        }
+        .content-link1 ,.content-link2 {
+            display: flex;
+            align-content: space-around;
+            padding: 10px;
+        }
+        .content-link1 a,.content-link2 a {
+                display: block;
+                text-decoration : none;
+                text-transform: capitalize;
+                padding: 10px;
+                border: 2px grey  solid;
+                margin : 4px;
+                height: 50px;
+                border-radius: 6px;
+                flex : 1;
+        }
+        #chatBot {
+        width : 90%;
+        margin: 0 auto;
+        margin-bottom: 220px;
+        
+       }
